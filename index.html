@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chord Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Chord Quiz Game</h1>
+        <button id="start-btn">Start Quiz</button>
+        <div id="question-container" class="hidden">
+            <p id="question"></p>
+            <div id="answer-buttons">
+                <button class="answer-btn">A</button>
+                <button class="answer-btn">B</button>
+                <button class="answer-btn">C</button>
+                <button class="answer-btn">D</button>
+            </div>
+        </div>
+        <div id="end-container" class="hidden">
+            <p>Your score: <span id="score"></span></p>
+            <button id="restart-btn">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
